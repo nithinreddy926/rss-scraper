@@ -3,7 +3,7 @@ name: RSS Scraper
 on:
   schedule:
     - cron: '0 * * * *'  # Runs every hour
-  workflow_dispatch:      # Allows manual trigger
+  workflow_dispatch:      # Manual trigger
 
 jobs:
   run-scraper:
@@ -23,8 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser pandas supabase python-dotenv
 
+      - name: Create .env file
+        run: |
+          echo "SUPABASE_URL=${{ secrets.SUPABASE_URL }}" >> .env
+          echo "SUPABASE_KEY=${{ secrets.SUPABASE_KEY }}" >> .env
+
       - name: Run RSS scraper
-        env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python rss_to_supabase.py

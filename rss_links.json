@@ -1,0 +1,24 @@
+{
+  "BBC": {
+    "World": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "Technology": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "Business": "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "Sports": "https://feeds.bbci.co.uk/sport/rss.xml",
+    "Entertainment": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml"
+  },
+  "CNN": {
+    "World": "http://rss.cnn.com/rss/edition_world.rss",
+    "Technology": "http://rss.cnn.com/rss/edition_technology.rss",
+    "Business": "http://rss.cnn.com/rss/money_latest.rss",
+    "Sports": "http://rss.cnn.com/rss/edition_sport.rss",
+    "Entertainment": "http://rss.cnn.com/rss/edition_entertainment.rss"
+  },
+  "TOI": {
+    "Top Stories": "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+    "World": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+    "India": "https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms",
+    "Technology": "https://timesofindia.indiatimes.com/rssfeeds/5880659.cms",
+    "Sports": "https://timesofindia.indiatimes.com/rssfeeds/4719148.cms",
+    "Business": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
+  }
+}

@@ -20,5 +20,22 @@
     "Technology": "https://timesofindia.indiatimes.com/rssfeeds/5880659.cms",
     "Sports": "https://timesofindia.indiatimes.com/rssfeeds/4719148.cms",
     "Business": "https://timesofindia.indiatimes.com/rssfeeds/1898055.cms"
+  },
+  "TheHindu": {
+  "Top Stories": "https://www.thehindu.com/feeder/default.rss",
+  "India": "https://www.thehindu.com/news/national/feeder/default.rss",
+  "World": "https://www.thehindu.com/news/international/feeder/default.rss",
+  "Opinion": "https://www.thehindu.com/opinion/feeder/default.rss",
+  "Sports": "https://www.thehindu.com/sport/feeder/default.rss",
+  "Business": "https://www.thehindu.com/business/feeder/default.rss",
+  "Science & Tech": "https://www.thehindu.com/sci-tech/feeder/default.rss",
+  "Entertainment": "https://www.thehindu.com/entertainment/feeder/default.rss",
+  "Lifestyle": "https://www.thehindu.com/life-and-style/feeder/default.rss",
+  "Cities": "https://www.thehindu.com/news/cities/feeder/default.rss",
+  "Education": "https://www.thehindu.com/education/feeder/default.rss",
+  "Books": "https://www.thehindu.com/books/feeder/default.rss",
+  "Children": "https://www.thehindu.com/children/feeder/default.rss",
+  "Environment": "https://www.thehindu.com/sci-tech/energy/feeder/default.rss"
   }
+
 }

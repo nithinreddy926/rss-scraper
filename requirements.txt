@@ -1,0 +1,14 @@
+# Python dependencies for live web news search
+
+# NewsAPI client for fetching articles
+newsapi-python==0.2.7
+
+# Sentence transformers for semantic embeddings
+sentence-transformers>=2.2.0
+
+# Core ML libraries
+torch>=2.0.0
+numpy>=1.24.0
+
+# Environment variable management
+python-dotenv>=1.0.0
